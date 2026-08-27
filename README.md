@@ -19,6 +19,8 @@ PASSMAN_MASTER="my-secret" passman tui   # j/k nav, q quit
 
 Single file `~/.cache/passman/pass.db` WAL `0700`, survives reboot, no daemon.
 
+![demo](https://raw.githubusercontent.com/Pastalikek65/passman/main/demo.gif)
+
 ## Why not `pass`
 
 `pass` needs `gpg` and `git`, 50MB+. This is 9M, pure Go, `age` `scrypt`, offline, TUI.
